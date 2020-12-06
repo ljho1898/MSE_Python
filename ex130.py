@@ -5,7 +5,7 @@
 
 
 import requests
-btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
+btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']       # 비트코인의 가격을 딕셔너리로 가지고 오는 코드이다.
 
 변동폭 = float(btc['max_price']) - float(btc['min_price'])
 시가 = float(btc['opening_price'])
