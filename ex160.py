@@ -10,7 +10,7 @@ for i in 리스트:
     if (split[1] == "h") or (split[1] == "c"):
         print(i)
 
-
+# . 을 기준으로 쪼개며 뒤에 h와c가 나올 경우에만 프린트 한다.
 #답 intra.h
 #   intra.c
 #   define.h
